@@ -1,23 +1,5 @@
-.navbar-custom {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    backdrop-filter: blur(6px);
-    border-bottom: 0.2px solid #0759d3;
-}
-
-.nav-link-custom {
-    color: #f8f9fa;
-    text-decoration: none;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    padding-bottom: 4px;
-}
-
-.nav-link-custom:hover {
-    color: #0759d3;
-    border-bottom: 2px solid #0759d3;
+.navbar .btn {
+    font-weight: 500;
 }
 
 .hero {
@@ -30,7 +12,22 @@
     flex: 1;
     padding: 2rem;
 }
+/* CONTACT  */
+.contact-section {
+  scroll-margin-top: 80px; /* for smooth scroll alignment */
+}
 
+.contact-section input,
+.contact-section textarea {
+    border: 1px solid #cce0ff;
+    transition: 0.3s;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.2);
+}
 /* Animation */
 .fade-in {
     opacity: 0;

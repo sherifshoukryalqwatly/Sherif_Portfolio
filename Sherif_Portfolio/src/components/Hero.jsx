@@ -3,7 +3,8 @@ function Hero() {
     return <>
         <div className="hero d-flex flex-column">
             <Navbar />
-            <div className="hero-content d-flex flex-column justify-content-center align-items-center text-center flex-grow-1">
+            <div className="hero-content d-flex flex-column justify-content-center align-items-center text-center flex-grow-1"
+                id='home'>
                 <h1 className="display-3 fw-bold text-white fade-in">Welcome, I'm <span className="text-primary">Sherif Shukrii</span></h1>
                 <h3 className="text-light fade-in" style={{ animationDelay: "0.5s" }}>
                     Full-Stack <span className="text-primary fw-bold">MEARN</span> Developer
