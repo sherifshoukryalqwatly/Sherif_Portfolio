@@ -1,6 +1,9 @@
+import useScrollAnimation from "../hooks/useScrollAnimation.jsx";
+
 function About() {
+    const ref = useScrollAnimation();
     return (
-    <section id="about" className="about-section py-5 bg-white">
+    <section id="about" ref={ref} className="scroll-section about-section py-5 bg-white">
         <div className="container">
             <div className="row align-items-center">
             {/* Left side — Image */}

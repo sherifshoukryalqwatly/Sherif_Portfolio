@@ -1,6 +1,9 @@
+import useScrollAnimation from "../hooks/useScrollAnimation.jsx";
+
 function Contact() {
+    const ref = useScrollAnimation();
     return <>
-        <section id="contact" className="contact-section py-5 bg-light">
+        <section id="contact" ref={ref} className=" scroll-section contact-section py-5 bg-light">
             <div className="container text-center">
                 <h2 className="fw-bold text-primary mb-4">Contact With Me</h2>
                 <p className="mb-5 text-secondary">

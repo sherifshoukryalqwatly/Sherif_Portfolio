@@ -1,7 +1,21 @@
+/* USER SCROLL ANIMATION */
+
+.scroll-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* NAVBAR  */
 .navbar .btn {
     font-weight: 500;
 }
-
+/* HERO  */
 .hero {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),

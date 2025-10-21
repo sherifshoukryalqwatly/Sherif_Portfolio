@@ -1,5 +1,7 @@
+import useScrollAnimation from "../hooks/useScrollAnimation.jsx";
 
 function Skills() {
+    const ref = useScrollAnimation();
     const skillCategories = [
         {
         title: "Frontend",
@@ -24,7 +26,7 @@ function Skills() {
     ];
 
     return (
-        <section id="skills" className="skills-section py-5 bg-light">
+        <section id="skills" ref={ref} className="scroll-section skills-section py-5 bg-light">
         <div className="container text-center">
             <h2 className="fw-bold text-primary mb-4">My Skills</h2>
             <p className="text-secondary mb-5">

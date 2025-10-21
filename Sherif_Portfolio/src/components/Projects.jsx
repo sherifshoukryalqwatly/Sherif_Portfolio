@@ -1,4 +1,7 @@
+import useScrollAnimation from "../hooks/useScrollAnimation.jsx";
+
 function Projects() {
+    const ref = useScrollAnimation();
     const projects = [
         {
         title: "AI Multi-Agent System",
@@ -30,7 +33,7 @@ function Projects() {
     ];
 
     return (
-        <section id="projects" className="projects-section py-5 bg-light">
+        <section id="projects" ref={ref} className="scroll-section projects-section py-5 bg-light">
         <div className="container text-center">
             <h2 className="fw-bold text-primary mb-4">My Projects</h2>
             <p className="text-secondary mb-5">
