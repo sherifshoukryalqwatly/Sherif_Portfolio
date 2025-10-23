@@ -3,7 +3,7 @@
 .scroll-section {
     opacity: 0;
     transform: translateY(50px);
-    transition: all 0.8s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .scroll-section.show {
@@ -12,6 +12,15 @@
 }
 
 /* NAVBAR  */
+nav {
+    background-color: rgba(51, 51, 51, 0.3); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 .navbar .btn {
     font-weight: 500;
 }
@@ -39,7 +48,7 @@
 
 .contact-section input:focus,
 .contact-section textarea:focus {
-    border-color: #0d6efd;
+    border-color: red;
     box-shadow: 0 0 5px rgba(13, 110, 253, 0.2);
 }
 /* Animation */

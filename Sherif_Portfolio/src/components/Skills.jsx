@@ -28,7 +28,7 @@ function Skills() {
     return (
         <section id="skills" ref={ref} className="scroll-section skills-section py-5 bg-light">
         <div className="container text-center">
-            <h2 className="fw-bold text-primary mb-4">My Skills</h2>
+            <h2 className="fw-bold text-danger mb-4">My Skills</h2>
             <p className="text-secondary mb-5">
             Here are some of the technologies and tools I use to design, build, and deploy modern web applications.
             </p>
@@ -39,13 +39,13 @@ function Skills() {
                 <div className="card h-100 border-0 shadow-sm p-3">
                     <div className="card-body">
                     <div className="mb-3">
-                        <i className={`${category.icon} fs-1 text-primary`}></i>
+                        <i className={`${category.icon} fs-1 text-danger`}></i>
                     </div>
-                    <h5 className="fw-bold text-primary mb-3">{category.title}</h5>
+                    <h5 className="fw-bold text-danger mb-3">{category.title}</h5>
                     <ul className="list-unstyled">
                         {category.skills.map((skill, i) => (
                         <li key={i} className="mb-2 text-secondary fw-medium">
-                            <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                            <i className="bi bi-check-circle-fill text-danger me-2"></i>
                             {skill}
                         </li>
                         ))}

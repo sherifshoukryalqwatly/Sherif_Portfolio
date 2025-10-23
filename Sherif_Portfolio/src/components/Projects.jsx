@@ -4,20 +4,20 @@ function Projects() {
     const ref = useScrollAnimation();
     const projects = [
         {
-        title: "AI Multi-Agent System",
-        description:
-            "An advanced AI platform using LangChain for multi-agent collaboration, tool calling, and knowledge retrieval (RAG).",
-        tech: ["Node.js", "LangChain", "React"],
-        image: "/images/ai-agent.jpg",
-        github: "https://github.com/yourusername/ai-multi-agent",
-        live: "https://yourapp.vercel.app/",
+            title: "AI Multi-Agent System",
+            description:
+                "An advanced AI platform using LangChain for multi-agent collaboration, tool calling, and knowledge retrieval (RAG).",
+            tech: ["Node.js", "LangChain", "React"],
+            image: "/react.jpg",
+            github: "https://github.com/yourusername/ai-multi-agent",
+            live: "https://yourapp.vercel.app/",
         },
         {
         title: "Booking & Listing Platform",
         description:
             "A full-stack web app where hosts publish listings and guests can book them. Integrated Stripe and PayPal for payments.",
         tech: ["Express", "MongoDB", "Stripe", "React"],
-        image: "/images/booking-app.jpg",
+        image: "/react.jpg",
         github: "https://github.com/yourusername/booking-app",
         live: "https://booking-app.vercel.app/",
         },
@@ -26,7 +26,7 @@ function Projects() {
         description:
             "An admin dashboard to manage player and coach transfers with analytics, approval system, and KPI tracking.",
         tech: ["React", "Tailwind", "Express", "MongoDB"],
-        image: "/images/transfer-dashboard.jpg",
+        image: "/react.jpg",
         github: "https://github.com/yourusername/player-dashboard",
         live: "https://dashboard.vercel.app/",
         },
@@ -35,7 +35,7 @@ function Projects() {
     return (
         <section id="projects" ref={ref} className="scroll-section projects-section py-5 bg-light">
         <div className="container text-center">
-            <h2 className="fw-bold text-primary mb-4">My Projects</h2>
+            <h2 className="fw-bold text-danger mb-4">My Projects</h2>
             <p className="text-secondary mb-5">
             Here are some of my favorite projects that showcase my skills in full-stack development.
             </p>
@@ -50,7 +50,7 @@ function Projects() {
                     alt={project.title}
                     />
                     <div className="card-body d-flex flex-column">
-                    <h5 className="card-title text-primary fw-bold">
+                    <h5 className="card-title text-danger fw-bold">
                         {project.title}
                     </h5>
                     <p className="card-text text-secondary flex-grow-1">
@@ -61,7 +61,7 @@ function Projects() {
                         {project.tech.map((t, i) => (
                         <span
                             key={i}
-                            className="badge bg-primary-subtle text-primary border border-primary me-1"
+                            className="badge bg-danger-subtle text-danger border border-danger me-1"
                         >
                             {t}
                         </span>
@@ -73,7 +73,7 @@ function Projects() {
                         href={project.live}
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-primary btn-sm me-2"
+                        className="btn btn-danger btn-sm me-2"
                         >
                         Live Demo
                         </a>
@@ -81,7 +81,7 @@ function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-outline-primary btn-sm"
+                        className="btn btn-outline-danger btn-sm"
                         >
                         GitHub
                         </a>

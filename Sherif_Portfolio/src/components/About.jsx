@@ -19,11 +19,11 @@ function About() {
 
             {/* Right side — Text */}
             <div className="col-md-7">
-                <h2 className="fw-bold text-primary mb-3">About Me</h2>
+                <h2 className="fw-bold text-danger mb-3">About Me</h2>
                 <p className="text-secondary fs-5">
-                Hi! I’m <span className="fw-semibold text-primary">Sherif Shukri</span>,
+                Hi! I’m <span className="fw-semibold text-danger">Sherif Shukri</span>,
                 a passionate <span className="fw-semibold">Full-Stack Developer</span> skilled in
-                <span className="text-primary"> React, Node.js, Express, and MongoDB</span>.
+                <span className="text-danger"> React, Node.js, Express, and MongoDB</span>.
                 I love building dynamic, user-friendly web applications that solve real-world problems.
                 </p>
                 <p className="text-secondary fs-5">
@@ -33,10 +33,10 @@ function About() {
                 </p>
 
                 <div className="mt-4">
-                <a href="#projects" className="btn btn-primary me-3">
+                <a href="#projects" className="btn btn-danger me-3">
                     View My Projects
                 </a>
-                <a href="#contact" className="btn btn-outline-primary">
+                <a href="#contact" className="btn btn-outline-danger">
                     Contact Me
                 </a>
                 </div>

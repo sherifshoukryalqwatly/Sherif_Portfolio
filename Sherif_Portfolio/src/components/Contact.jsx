@@ -5,7 +5,7 @@ function Contact() {
     return <>
         <section id="contact" ref={ref} className=" scroll-section contact-section py-5 bg-light">
             <div className="container text-center">
-                <h2 className="fw-bold text-primary mb-4">Contact With Me</h2>
+                <h2 className="fw-bold text-danger mb-4">Contact With Me</h2>
                 <p className="mb-5 text-secondary">
                 I’d love to hear from you! Whether you want to discuss a project,
                 collaboration, or just say hi — feel free to reach out.
@@ -50,9 +50,9 @@ function Contact() {
                         ></textarea>
                     </div>
 
-                    <button type="submit" className="btn btn-primary w-100 fw-semibold">
+                    <a type="submit" href="mailto:shoukrysherif5@gmail.com" className="btn btn-danger w-100 fw-semibold">
                         Send Message
-                    </button>
+                    </a>
                     </form>
                 </div>
                 </div>
@@ -62,23 +62,23 @@ function Contact() {
                 <div className="d-flex justify-content-center gap-3">
                     <a
                     href="mailto:shoukrysherif5@gmail.com"
-                    className="text-primary fs-5 text-decoration-none"
+                    className="text-danger fs-5 text-decoration-none"
                     >
                     <i className="bi bi-envelope"></i> Email
                     </a>
                     <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/sherifshoukryalqwatly"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-primary fs-5 text-decoration-none"
+                    className="text-danger fs-5 text-decoration-none"
                     >
                     <i className="bi bi-github"></i> GitHub
                     </a>
                     <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/sherif-shukrii-08085022a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-primary fs-5 text-decoration-none"
+                    className="text-danger fs-5 text-decoration-none"
                     >
                     <i className="bi bi-linkedin"></i> LinkedIn
                     </a>

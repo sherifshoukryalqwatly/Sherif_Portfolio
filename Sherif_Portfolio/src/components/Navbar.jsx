@@ -4,7 +4,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-light px-4 py-3 fixed-top shadow-sm">
                 <div className="container-fluid">
                     {/* Brand */}
-                    <a className="navbar-brand text-primary fw-bold fs-1" href="#home">
+                    <a className="navbar-brand text-danger fw-bold fs-1" href="#home">
                     Q
                     </a>
 
@@ -25,33 +25,33 @@ function Navbar() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav gap-lg-4 text-center">
                         <li className="nav-item">
-                        <a className="nav-link active nav-link-custom text-light" href="#home">
+                        <a className="nav-link active nav-link-custom text-light fs-5" href="#home">
                             Home
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-link-custom text-light" href="#about">
+                        <a className="nav-link nav-link-custom text-light fs-5" href="#about">
                             About
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-link-custom text-light" href="#skills">
+                        <a className="nav-link nav-link-custom text-light fs-5" href="#skills">
                             Skills
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-link-custom text-light" href="#projects">
+                        <a className="nav-link nav-link-custom text-light fs-5" href="#projects">
                             Projects
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-link-custom text-light" href="#contact">
+                        <a className="nav-link nav-link-custom text-light fs-5" href="#contact">
                             Contact
                         </a>
                         </li>
                         <li className="nav-item">
                         <a
-                            className="btn btn-primary ms-lg-3 mt-2 mt-lg-0"
+                            className="btn btn-danger ms-lg-3 mt-2 mt-lg-0 fs-5"
                             href="/Sherif Shukri ALQwatli.pdf"
                             download
                         >
