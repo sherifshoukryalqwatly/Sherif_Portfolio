@@ -4,24 +4,24 @@ function Skills() {
     const ref = useScrollAnimation();
     const skillCategories = [
         {
-        title: "Frontend",
-        skills: ["React", "Bootstrap", "Tailwind CSS", "Redux", "HTML5", "CSS3", "JavaScript"],
-        icon: "bi bi-window-sidebar",
+            title: "Frontend",
+            skills: ["React","Next","Angular", "Bootstrap", "Tailwind CSS"," Material UI"],
+            icon: "bi bi-window-sidebar",
         },
         {
-        title: "Backend",
-        skills: ["Node.js", "Express", "Django", "REST APIs"],
-        icon: "bi bi-hdd-network",
+            title: "Backend",
+            skills: ["Node.js", "Express.js","Nest.js", "REST APIs","GraphQL"],
+            icon: "bi bi-hdd-network",
         },
         {
-        title: "Databases",
-        skills: ["MongoDB", "PostgreSQL", "MySQL"],
-        icon: "bi bi-database",
+            title: "Databases",
+            skills: ["MongoDB"],
+            icon: "bi bi-database",
         },
         {
-        title: "Tools & Others",
-        skills: ["Git", "GitHub", "Postman", "Docker", "VS Code"],
-        icon: "bi bi-tools",
+            title: "Tools & Others",
+            skills: ["Git", "GitHub", "Postman", "VS Code"],
+            icon: "bi bi-tools",
         },
     ];
 

@@ -4,31 +4,40 @@ function Projects() {
     const ref = useScrollAnimation();
     const projects = [
         {
-            title: "AI Multi-Agent System",
+            title: "Maskn (Real Estate Rental Platform)",
             description:
-                "An advanced AI platform using LangChain for multi-agent collaboration, tool calling, and knowledge retrieval (RAG).",
-            tech: ["Node.js", "LangChain", "React"],
-            image: "/react.jpg",
-            github: "https://github.com/yourusername/ai-multi-agent",
-            live: "https://yourapp.vercel.app/",
+                "A full-stack rental platform where hosts can publish property listings (with admin approval) and guests can book, review, and interact with them",
+            tech: [" Express.js", "MongoDB Atlas", "Swagger","SendGrid","Nodemailer","Multer","Cloudinary","RAG (AI Chatbot)","React","Angular"],
+            image: "https://res.cloudinary.com/deuxt0stn/image/upload/v1754995944/hero_f71osg.jpg",
+            github: "https://github.com/AbdullaNassar/Maskan.git",
+            live: "https://maskn.netlify.app/home",
         },
         {
-        title: "Booking & Listing Platform",
-        description:
-            "A full-stack web app where hosts publish listings and guests can book them. Integrated Stripe and PayPal for payments.",
-        tech: ["Express", "MongoDB", "Stripe", "React"],
-        image: "/react.jpg",
-        github: "https://github.com/yourusername/booking-app",
-        live: "https://booking-app.vercel.app/",
+            title: "Koora App",
+            description:
+                "seamless ecommerce app specialized in sporting goods. Explore high-quality sportswear, gear, and accessories with fast delivery, secure checkout, and a smooth shopping experience",
+            tech: ["Angular", "Bootstrap"],
+            image: "https://africastoreas.com/storage/app/public/banner/2025-10-17-68f1f469b7406.webp",
+            github: "https://github.com/sherifshoukryalqwatly/Al-Khalifa-UI.git",
+            live: "https://jolly-valkyrie-2ffc1d.netlify.app/home",
         },
         {
-        title: "Player Transfer Dashboard",
-        description:
-            "An admin dashboard to manage player and coach transfers with analytics, approval system, and KPI tracking.",
-        tech: ["React", "Tailwind", "Express", "MongoDB"],
-        image: "/react.jpg",
-        github: "https://github.com/yourusername/player-dashboard",
-        live: "https://dashboard.vercel.app/",
+            title: "Makeup Artist APP",
+            description:
+                "The Makeup Artist Backend is a robust server-side application designed to manage bookings, services, portfolios, and client interactions for professional makeup artists. It provides secure authentication, organized data management, and seamless API endpoints for powering a smooth and efficient user experience on the frontend",
+            tech: ["Express", "MongoDB Atlas", "Swagger", "SendGrid","Multer","Cloudinary","Passport"],
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-sdRIvQxSBfArITwaURCNiCo1hu9Vf_uEQ&s",
+            github: "https://github.com/Minamaher-sw/MakeupArtistBackend.git",
+            live: "#",
+        },
+        {
+            title: "Movie App",
+            description:
+                ": A modern movies app that lets you explore films, view details, watch trailers, and save your favorites — all in one smooth, fast experience",
+            tech: ["Angular"," (TMDB) API"],
+            image: "/7cM6SF.jpg",
+            github: "https://github.com/sherifshoukryalqwatly/Angular-Movie-App.git",
+            live: "https://reliable-cobbler-cd2a58.netlify.app",
         },
     ];
 

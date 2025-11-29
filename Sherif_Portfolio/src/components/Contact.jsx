@@ -59,7 +59,7 @@ function Contact() {
 
                 <div className="mt-5">
                 <p className="text-secondary mb-1">Or connect with me:</p>
-                <div className="d-flex justify-content-center gap-3">
+                <div className="d-md-flex justify-content-center gap-3">
                     <a
                     href="mailto:shoukrysherif5@gmail.com"
                     className="text-danger fs-5 text-decoration-none"
@@ -75,12 +75,18 @@ function Contact() {
                     <i className="bi bi-github"></i> GitHub
                     </a>
                     <a
-                    href="https://www.linkedin.com/in/sherif-shukrii-08085022a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    href="https://www.linkedin.com/in/sherif-shukrii-08085022a"
                     target="_blank"
                     rel="noreferrer"
                     className="text-danger fs-5 text-decoration-none"
                     >
                     <i className="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a
+                    href="#"
+                    className="text-danger fs-5 text-decoration-none"
+                    >
+                    <i className="bi bi-chat-fill"></i> +201110317344
                     </a>
                 </div>
                 </div>

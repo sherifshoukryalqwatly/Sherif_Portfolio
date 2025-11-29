@@ -13,7 +13,7 @@ function Hero() {
                     I build modern, scalable web applications with MongoDB, Express, React, Next, Angular, and Node.js.
                 </p>
                 <div className="mt-4 fade-in" style={{ animationDelay: "1.5s" }}>
-                    <a href="#projects" className="btn btn-danger btn-lg me-3">View Projects</a>
+                    <a href="#projects" className="btn btn-danger btn-lg m-3">View Projects</a>
                     <a href="#contact" className="btn btn-outline-light btn-lg">Contact Me</a>
                 </div>
             </div>

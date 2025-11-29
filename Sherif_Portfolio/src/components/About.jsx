@@ -36,8 +36,8 @@ function About() {
                 <a href="#projects" className="btn btn-danger me-3">
                     View My Projects
                 </a>
-                <a href="#contact" className="btn btn-outline-danger">
-                    Contact Me
+                <a href="/Sherif Shukri ALQwatli.pdf" className="btn btn-outline-danger" download>
+                    My Ruseme
                 </a>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light px-4 py-3 fixed-top shadow-sm">
+            <nav className="navbar navbar-expand-lg navbar-light px-4 py-2 fixed-top shadow-sm">
                 <div className="container-fluid">
                     {/* Brand */}
                     <a className="navbar-brand text-danger fw-bold fs-1" href="#home">
